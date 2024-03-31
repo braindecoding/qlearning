@@ -1,3 +1,6 @@
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
 # qlearning
 
 To optimize your script using Q-learning for adjusting the parameters `args1`, `args2`, `args3`, and `args4`, which correspond to `K`, `intermediate_dim`, `batch_size`, and `maxiter` respectively in your context, we'll first lay out a Q-learning approach suited for parameter tuning. The essence of this method is to treat the optimization problem as a reinforcement learning (RL) task, where the agent learns to select actions (parameter values) that maximize a cumulative reward (performance metric, such as accuracy or loss reduction).
