@@ -1,7 +1,3 @@
-<script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
-
 # qlearning
 
 To optimize your script using Q-learning for adjusting the parameters `args1`, `args2`, `args3`, and `args4`, which correspond to `K`, `intermediate_dim`, `batch_size`, and `maxiter` respectively in your context, we'll first lay out a Q-learning approach suited for parameter tuning. The essence of this method is to treat the optimization problem as a reinforcement learning (RL) task, where the agent learns to select actions (parameter values) that maximize a cumulative reward (performance metric, such as accuracy or loss reduction).
